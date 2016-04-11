@@ -36,9 +36,9 @@ public class Mailing {
 		// sets SMTP server properties
                 String host="smtp.gmail.com";
                 String port="587";
-                String userName="jibinantoss@gmail.com";
-                String password="edison6195";
-                String to[]={"a.neilrobin@gmail.com","johnalex.titto@gmail.com","christnithin001@gmail.com","jibinantoss@gmail.com"};
+                String userName="";
+                String password="";
+                String to[]={""};
                 String subject="hello last test";
                 String message="This is content";
                 for(int i=0;i<to.length;i++){
